@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a complex project that involves different technologies to build a music NFT project. For security reasons, this is not the latest deployed version of the marketplace as it is a development version from the past. Also, many security keys have been hidden and a few things may me missing for the same reason. Nextjs, Redux, talwind, solidity, firebase, etc. are just a few examples of the stack used in this project.
 
 ## Getting Started
 
