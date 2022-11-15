@@ -1,0 +1,27 @@
+
+.childcontent{
+    width: 33.3%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.childcontent:nth-child(1):hover{
+    background-color: yellow;
+    color: #111;
+}
+.childcontent:nth-child(2):hover{
+    background-color: orangered;
+    color: #111;
+}
+.childcontent:nth-child(3):hover{
+    background-color: #FF404D;
+    color: #111;
+}

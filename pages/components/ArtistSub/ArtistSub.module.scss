@@ -1,0 +1,43 @@
+.artistsub{
+    .icon{
+        color: #aaa;
+        transition: 0.3s ease;
+        &:hover{
+            color: #fd5356;
+        }
+    }
+    .artist{
+        .premium{
+            background-color: #fd5356;
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 50%;
+            margin-top: 5px;
+        }
+    }
+    .ethaddress{
+        color: #111;
+        font-size: 0.8rem;
+        margin-top: 5px;
+        border: 1px solid rgb(159, 157, 157);
+    }
+    .line{
+        height: 2rem;
+        width: 1px;
+        margin: 0 1.5rem;
+        background-color: rgb(159, 157, 157);
+    }
+    .description{
+        width: 50%;
+        text-align: center;
+        color: rgb(159, 157, 157);
+    }
+}
+@media screen and (max-width: 550px){
+    .artistsub{
+        .description{
+            width: 100%;
+            font-size: 12px;
+        }
+    }
+}

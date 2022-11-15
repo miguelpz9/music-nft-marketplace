@@ -1,0 +1,30 @@
+.eventstop{
+    width: 100%;
+    height:50vh;
+    background: url('/images/hometop.jpeg');
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eventstopCover{
+    backdrop-filter: blur(10px);
+    background-color: rgba($color: #fff, $alpha: 0.15);
+}
+.homeTitle{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 3px 5px 5px rgba($color: #000000, $alpha: 0.4);
+}
+@media only screen and (max-width:550px) {
+    .homeTitle{
+        font-size: 2rem;
+    }
+    .eventstop{
+        height: 30vh;
+    }
+
+}

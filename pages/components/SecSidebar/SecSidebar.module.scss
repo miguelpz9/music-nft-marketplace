@@ -1,0 +1,30 @@
+.customselect{
+    width: 48%;
+    height: 2rem;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    &:hover{
+        color: #fd5356;
+        border: 1px solid #fd5356;
+    }
+}
+.applyButton{
+    height: 43px;
+    width: 42%;
+    border: 1px solid #fd5356;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #fd5356;
+    cursor: pointer;
+}

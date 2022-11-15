@@ -1,0 +1,11 @@
+{
+    "address": "0x2D0B4b501C8522E049A86184D2e0CE52bcAdA63F",
+    "name": "Snoop Dog",
+    "social": "@snoopdog",
+    "description":"Some awesome artist amigoss, you should check them out",
+    "image": "https://cdn.britannica.com/63/103163-050-F26733EB/Snoop-Dogg.jpg",
+    "cover": "https://cdn.britannica.com/63/103163-050-F26733EB/Snoop-Dogg.jpg",
+    "collections": ["0x", "0x"],
+    "verified": true,
+    "exists": true
+}

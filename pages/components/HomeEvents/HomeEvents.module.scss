@@ -1,0 +1,15 @@
+.homeevents{
+    min-height: 70vh;
+    .eventcard{
+        width: 18.5%;
+    }
+}
+@media only screen and (max-width:550px) {
+    .homeevents{
+        flex-direction: column;
+        .eventcard{
+            width: 85.5%;
+            margin-bottom: 2rem;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.topcollections{
+    width: 83%;
+    min-height: 50vh;
+    height: auto;
+}
+.topcardWidth{
+    width: 49%;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width:550px) {
+    .topcollections{
+        width: 95%;
+    }
+}

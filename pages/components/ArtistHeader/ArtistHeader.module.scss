@@ -1,0 +1,16 @@
+.artistheader{
+    .artisthead{
+        width: 8rem;
+        height: 8rem;
+        background-color: #fd5356;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow: hidden;
+        img{
+            border-radius: 50%;
+        }
+    }
+}

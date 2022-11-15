@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.showExploraMenu{
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  top: 100% !important;
+}
+.custom-artist-carousel{
+  width: 80%;
+  margin: 0 auto;
+  height: 40vh;
+}
+.jumbo-active{
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  background-color: #FF404D;
+  border: 2px solid #FF404D;
+  cursor: pointer;
+}
+.jumbo-passive{
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  background-color: #fff;
+  border: 2px solid #555;
+  cursor: pointer;
+}
+.w-80p{
+  width: calc(100vw - 56px);
+  margin-left: auto;
+}
+
+
+/* Hers starts */
+
+/*    [ Keano  ( 2022.02.06 ) ]    */
+
+
+.cardloader {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-flow: column;
+  background: #fff;
+  box-shadow: 0 8px 32px 0 #ffffff16;
+  backdrop-filter: blur(8px);
+  border-radius: 6px;
+  border: 1px solid #eee;
+  padding: 0;
+  margin: 16px;
+  width: 240px;
+}
+.cardloader .image {
+  height: 200px;
+}
+.cardloader .image img {
+  display: block;
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+.cardloader .content {
+  padding: 16px;
+  
+}
+.cardloader .content h1 {
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+.cardloader .content h2 {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.cardloader.loading .content h1 {
+    min-height: 32px;
+    border-radius: 4px;
+    animation-delay: 0.05s;
+}
+.cardloader.loading .content h2 {
+  min-height: 64px;
+  border-radius: 4px;
+  animation-delay: 0.07s;
+}
+
+.cardloader.loading  .image,
+.cardloader.loading 
+.content * {
+  background-color: #efedef;
+  background: linear-gradient(
+      100deg,
+      #11111100 40%,
+      #11111112 50%,
+      #11111100 60%
+    )
+    #efedef;
+  background-size: 200% 100%;
+  background-position-x: 180%;
+  animation: 1.2s Shine ease-in-out infinite;
+}
+
+@keyframes Shine {
+  to {
+    background-position-x: -20%;
+  }
+}
+
+
+/* Here ends */
+
+
+@media only screen and (max-width:550px) {
+  .w-80p{
+    width: 100%;
+  }
+}

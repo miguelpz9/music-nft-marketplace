@@ -1,0 +1,12 @@
+.music{
+    height: auto;
+    width: 100%;
+    //margin-bottom: 8rem;
+}
+@media only screen and (max-width:550px) {
+    .music{
+        width: 95%;
+        //margin-bottom: 8rem;
+        height: auto;
+    }
+}
